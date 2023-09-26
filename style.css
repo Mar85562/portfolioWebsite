@@ -1,11 +1,19 @@
 h4 {
     color: rgb(13, 71, 146);
-    font-weight: 500;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
     color: rgb(28, 31, 228);
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: rgb(13, 71, 146);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -13,37 +21,54 @@ body {
 }
 
 section, footer {
-    padding: 32px;
+    padding: 40px;
     margin: auto;
-    width: 700px;
-    background-color: white;
+    width: 800px;
+    background-color: #fff5e6;
 }
 
 .profile {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 70px;
 }
 
 .profile > img {
-    width: 150px;
-    border-radius: 100px;
-    border: solid rgb(13, 71, 146) 10px;
+    width: 200px;
+    border-radius: 200px;
+    border: solid rgb(13, 71, 146) 3.5px;
 }
 
 .social-media-link > img {
-    width: 50px;
+    width: 80px;
     cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: center;
+}
+
+.social-media-link {
+    text-decoration: none;
+    text-align: center;
 }
 
 .about {
     text-align: center;
 }
 
-.about > h2 {
-    padding-top: 30px;
-
+.about > a {
+    padding-bottom: 10px;
 }
 
-.about > a {
-    padding-bottom: 30px;
+.social-media {
+    padding-top: 35px;
+    align-content: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.resume-link {
+    font-size: 16px;
 }
