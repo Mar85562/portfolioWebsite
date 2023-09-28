@@ -79,8 +79,8 @@ p {
     font-size: 18px;
 }
 
-.Project > img {
-    width: 300px;
+.portfolio-pic {
+    width: 350px;
 }
 
 .project-container > h2 {
@@ -95,4 +95,8 @@ p {
 .project-description {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.calendar-pic {
+    height: 320px;
 }
