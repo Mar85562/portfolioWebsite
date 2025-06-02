@@ -2,6 +2,10 @@
 
 This is my personal portfolio website showcasing my projects, technical skills, and resume. Built with HTML and CSS, it's deployed using GitHub Pages.
 
+## 🖼 Preview
+
+![Website Screenshot](Assets/preview.png)
+
 ## 📌 Features
 - Responsive design for desktop and mobile
 - Project showcase with links to GitHub
