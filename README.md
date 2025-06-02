@@ -19,4 +19,3 @@ This is my personal portfolio website showcasing my projects, technical skills, 
 ## 🌐 Live Site
 [Visit Portfolio](https://mar85562.github.io/portfolioWebsite/)
 
-## 📁 Folder Structure
