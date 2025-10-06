@@ -24,26 +24,45 @@
         <section class="about">
             <h2>About Me</h2>
             <p>
-                Welcome to my portfolio! Here, you can get a closer look at my journey as a computer engineering student at the University of South Florida and discover the projects and passions that drive me.
+               Welcome to my portfolio! I am Marwan Abdelwahab, a Computer Engineering student at the University of South Florida passionate about building intelligent, reliable, and efficient computing systems that bridge hardware design, embedded software, and artificial intelligence.
             </p>
             <p>
-                I am currently in my third year and have a keen interest in Artificial Intelligence, machine learning, and hardware. With experience from a summer 2023 internship, I developed a mobile portal for construction workers using Flutter. I am also actively involved in the Society of Aeronautics and Rocketry (SOAR), where I contribute to projects involving control systems, data acquisition systems, and RF control systems to support our liquid propulsion rocket engine development efforts.
+                I currently serve as the Electronics Team Lead for the Society of Aeronautics and Rocketry (SOAR), where I lead the design and integration of real-time data acquisition and control systems for a student-built liquid rocket engine. My work spans FreeRTOS firmware development in C++, sensor interfacing, and custom PCB design, enabling reliable telemetry and control under demanding test conditions.
             </p>
             <p>
-                In my spare time, I enjoy deepening my understanding of Data Structures and algorithms, and I am currently exploring robotics topics such as rigid body transformations and forward kinematics. I also work as a mail and desk clerk for USF Housing & Residential Education, where I have built strong interpersonal and organizational skills while assisting fellow students.
+               At the SEES Lab, I conduct research on Generative AI for hardware design, developing large language model-based methods for automating RTL code generation and verification. My current focus is on building a hierarchical Verilog dataset for benchmarking AI-assisted circuit design and evaluating performance, power, and area trade-offs using Yosys, OpenLane, and the Sky130 PDK.
             </p>
             <p>
-                Thank you for visiting my portfolio! I am excited to share my accomplishments and connect with others who share my interests.
+                Previously, I designed a RISC-V SoC with a machine learning accelerator, integrating a custom coprocessor and producing a DRC/LVS-clean GDSII layout as part of my ASIC design research.
+            </p>
+            <p>
+                Alongside research, I work as a Teaching Assistant for Computer Logic & Design, mentoring over 100 students in Verilog, digital design, and simulation workflows. I also serve as an Operations Assistant for USF Housing & Residential Education, where I strengthen my organizational and communication skills by managing equipment logistics and student support tasks.
+            </p>
+            <p>
+                Driven by curiosity and precision, I aim to advance in the intersection of embedded systems, AI-driven hardware design, and digital system optimization—building the technologies that connect intelligent software with efficient hardware.
             </p>
             <a target="_blank" rel="noreferrer noopener" href="/portfolioWebsite/Assets/Marwan_Abdelwahab_resume.pdf" class="resume-link">Here is a link to my resume. Check it out! </a>
         </section>
         <section class="project-container">
-            <h2>Projects</h2>
+            <h2>Projects & Research</h2>
             <div class="Project">
-                <img src="/portfolioWebsite/Assets/control_system_components.png" class="torito-pic" alt="Liquid Propulsion Engine">
+                <article>
+                    <h3>Generative AI for Hardware Design</h3>
+                    <p class="project-description">At the Secure, Efficient & Evolvable Systems (SEES) Lab at the University of South Florida, I conduct research on Generative AI for hardware design under the supervision of Dr. Hao Zheng. My work explores how large language models (LLMs) can automate the generation and verification of hardware description language (HDL) code, accelerating the design process for digital systems. I am currently developing a hierarchical Verilog dataset containing 50–70 designs of varying complexity to benchmark and evaluate the performance of State-of-the-Art LLMs in RTL code generation. This research also involves analyzing performance, power, and area (PPA) trade-offs using tools such as Yosys, OpenLane, and the Sky130 PDK, with the goal of advancing AI-assisted design automation and creating reproducible benchmarks for future EDA research.</p>
+                    <div>
+                        <a target="_blank" rel="noreferrer noopener" href="https://sees-usf.github.io/research">Research Lab Website</a>
+                    </div>
+                </article>
+            </div>
+            <div class="Project">
+                <img src="/portfolioWebsite/Assets/IMG_0188.jpg" class="torito-pic" alt="Liquid Propulsion Engine">
+                <img src="/portfolioWebsite/Assets/IMG_0189.jpg" class="torito-pic" alt="Liquid Propulsion Engine Test Fire">
+                <img src="/portfolioWebsite/Assets/IMG_5149.jpg" class="torito-pic" alt="Liquid Propulsion Engine Test Fire">
                 <article>
                     <h3>Liquid Propulsion Rocket Engine</h3>
-                    <p class="project-description">This is a student-led liquid propulsion rocket engine designed to produce 250LB of thrust. As the EECS Lead, I manage the integration of electronic systems, including load cells for thrust measurement, pressure and temperature sensors, and RF systems for remote ignition and monitoring. This project allows me to apply my skills in control systems, embedded systems, and sensor integration in a hands-on, collaborative environment</p>
+                    <p class="project-description">This project involves the design and testing of a student-built liquid rocket engine capable of generating 250 lb of thrust. 
+                        As the Electronics & Computer Systems Lead, I oversee the development and integration of all electronic subsystems — including load cells for thrust measurement, pressure and temperature sensors, and RF-based remote ignition and telemetry systems.
+                        I design and implement real-time control and data acquisition firmware using FreeRTOS on ESP32 microcontrollers, ensuring reliable communication, safety interlocks, and synchronized sensor logging. This role combines embedded systems, control engineering, and sensor integration, providing hands-on experience in system reliability, hardware-software co-design, and cross-disciplinary collaboration within a fast-paced engineering team.</p>
                 </article>
             </div>
             <div class="Project">
@@ -56,32 +75,17 @@
                     </div>
                 </article>
             </div>
-            <div class="Project">
-                <article>
-                    <h3>Home Automation System</h3>
-                    <p class="project-description">(Image coming soon...)</p>
+            <!-- <div class="Project"> -->
+                <!-- <article> -->
+                    <!-- <h3>Home Automation System</h3> -->
+                    <!-- <p class="project-description">(Image coming soon...)</p> -->
                     <!-- <img src="/portfolioWebsite/Assets/blog_image.png" alt="blog image" class="blog-image"> -->
-                    <p class="project-description">This is an IoT-based home automation system designed to enhance convenience and efficiency in a smart living space. Using IR control and PIR sensors, the system automates room lighting and fan operation based on presence detection. A custom-built mobile app provides remote control, while an ESP32 microcontroller manages embedded firmware for real-time responsiveness. I am currently working on RTOS integration to improve task scheduling and developing voice activation and machine learning-based automation for enhanced user experience. This project highlights my skills in embedded systems, control systems, and IoT development.</p>
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener">Github Link Coming soon...</a>
-                    </div>
-                </article>
-            </div>
-            <div class="Project">
-                <article>
-                    <h3>Blog Website</h3>
-                    <img src="/portfolioWebsite/Assets/blog_image.png" alt="blog image" class="blog-image">
-                    <p class="project-description">This is a blog website I developed that gives users a simple and secure way to share their thoughts and engage with content online. Using Flask and RESTful APIs, I developed features like creating, editing, and deleting blog posts, all backed by a Postgres database. I also implemented user authentication with password hashing to keep user data safe. The website is deployed online, making it accessible and scalable. This project reflects my hands-on experience in web development and my focus on building practical, user-friendly applications</p>
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="https://deployment-starting-files.vercel.app/">Website Link</a>
-                    </div>
-                    &nbsp;
-                    &nbsp;
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562/deployment-starting-files">Github Link</a>
-                    </div>
-                </article>
-            </div>
+                    <!-- <p class="project-description">This is an IoT-based home automation system designed to enhance convenience and efficiency in a smart living space. Using IR control and PIR sensors, the system automates room lighting and fan operation based on presence detection. A custom-built mobile app provides remote control, while an ESP32 microcontroller manages embedded firmware for real-time responsiveness. I am currently working on RTOS integration to improve task scheduling and developing voice activation and machine learning-based automation for enhanced user experience. This project highlights my skills in embedded systems, control systems, and IoT development.</p> -->
+                    <!-- <div> -->
+                        <!-- <a target="_blank" rel="noreferrer noopener">Github Link Coming soon...</a> -->
+                    <!-- </div> -->
+                <!-- </article> -->
+            <!-- </div> -->
             <div class="Project">
                 <img src="/portfolioWebsite/Assets/Calendar picture.jpg" alt="calendar app" class="calendar-pic">
                 <article>
