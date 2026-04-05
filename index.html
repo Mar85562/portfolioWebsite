@@ -1,133 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section class="profile">
-            <img src="/portfolioWebsite/Assets/Professional photo.jpg" alt="profile picture">
-            <h1>Marwan Abdelwahab</h1>
-            <h4>Computer Engineering Student</h4>
-            <div class="social-media">
-                <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/marwan-abdelwahab" class="social-media-link">
-                    <img src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png" alt="linkedin">
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562" class="social-media-link">
-                    <img src="https://th.bing.com/th/id/R.724794164fb289dd2f7d69dde7ac3bc0?rik=H5bTVhjLhZdHOQ&pid=ImgRaw&r=0" alt="github">
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="mailto:marwanabdelwahab09@gmail.com" class="social-media-link">
-                    <img src="https://pngimg.com/uploads/email/email_PNG100751.png" alt="email">
-                </a>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Marwan Abdelwahab — Computer Engineering student. Portfolio: embedded systems, cloud/backend, digital design, and research.">
+    <title>Marwan Abdelwahab | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <p class="site-header__brand">Marwan Abdelwahab</p>
+            <nav class="site-nav" aria-label="On-page">
+                <a href="#about">About</a>
+                <a href="#featured-projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- ========== 1. HERO ========== -->
+        <section class="hero section" id="top" aria-labelledby="hero-heading">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <p class="hero__eyebrow">Portfolio</p>
+                    <h1 id="hero-heading" class="hero__title">Marwan Abdelwahab</h1>
+                    <p class="hero__headline">Computer Engineering Student | Embedded Systems, Cloud/Backend, and AI-Assisted Hardware Design</p>
+                    <p class="hero__summary">
+                        I am a Computer Engineering student at the University of South Florida with experience spanning embedded systems, mixed-signal hardware, backend/cloud development, and AI-assisted hardware design. My work ranges from real-time rocket engine data acquisition systems and custom PCB design to Azure-based multi-agent software systems and ASIC research workflows.
+                    </p>
+                    <div class="hero__actions" role="group" aria-label="Primary links">
+                        <a class="btn btn--primary" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/marwan-abdelwahab">
+                            <svg class="btn__icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            LinkedIn
+                        </a>
+                        <a class="btn btn--secondary" target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562">
+                            <svg class="btn__icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                            GitHub
+                        </a>
+                        <a class="btn btn--secondary" href="mailto:marwanabdelwahab09@gmail.com">
+                            <svg class="btn__icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+                            Email
+                        </a>
+                        <a class="btn btn--outline" href="Assets/Marwan_Abdelwahab_resume.pdf" download>
+                            <svg class="btn__icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__photo-wrap">
+                    <!-- Headshot: replace src if you move the file -->
+                    <img class="hero__photo" src="Assets/Professional photo.jpg" alt="Marwan Abdelwahab, professional headshot" width="280" height="280">
+                </div>
             </div>
         </section>
-        <section class="about">
-            <h2>About Me</h2>
-            <p>
-               Welcome to my portfolio! I am Marwan Abdelwahab, a Computer Engineering student at the University of South Florida passionate about building intelligent, reliable, and efficient computing systems that bridge hardware design, embedded software, and artificial intelligence.
-            </p>
-            <p>
-                I currently serve as the Electronics Team Lead for the Society of Aeronautics and Rocketry (SOAR), where I lead the design and integration of real-time data acquisition and control systems for a student-built liquid rocket engine. My work spans FreeRTOS firmware development in C++, sensor interfacing, and custom PCB design, enabling reliable telemetry and control under demanding test conditions.
-            </p>
-            <p>
-               At the SEES Lab, I conduct research on Generative AI for hardware design, developing large language model-based methods for automating RTL code generation and verification. My current focus is on building a hierarchical Verilog dataset for benchmarking AI-assisted circuit design and evaluating performance, power, and area trade-offs using Yosys, OpenLane, and the Sky130 PDK.
-            </p>
-            <p>
-                Previously, I designed a RISC-V SoC with a machine learning accelerator, integrating a custom coprocessor and producing a DRC/LVS-clean GDSII layout as part of my ASIC design research.
-            </p>
-            <p>
-                Alongside research, I work as a Teaching Assistant for Computer Logic & Design, mentoring over 100 students in Verilog, digital design, and simulation workflows. I also serve as an Operations Assistant for USF Housing & Residential Education, where I strengthen my organizational and communication skills by managing equipment logistics and student support tasks.
-            </p>
-            <p>
-                Driven by curiosity and precision, I aim to advance in the intersection of embedded systems, AI-driven hardware design, and digital system optimization—building the technologies that connect intelligent software with efficient hardware.
-            </p>
-            <a target="_blank" rel="noreferrer noopener" href="/portfolioWebsite/Assets/Marwan_Abdelwahab_resume.pdf" class="resume-link">Here is a link to my resume. Check it out! </a>
+
+        <!-- ========== 2. ABOUT ========== -->
+        <section class="section section--alt" id="about" aria-labelledby="about-heading">
+            <div class="container container--narrow">
+                <h2 id="about-heading" class="section__title">About</h2>
+                <div class="prose">
+                    <p>I'm a Computer Engineering student at the University of South Florida graduating in May 2026. My background sits at the intersection of hardware and software, with hands-on experience in embedded firmware, PCB design, backend/cloud systems, and digital hardware design.</p>
+                    <p>I currently serve as Electronics Team Lead for the Society of Aeronautics and Rocketry (SOAR), where I lead the development of data acquisition and control systems for a student-built liquid rocket engine. My work includes custom mixed-signal PCB design, embedded C++/RTOS firmware, sensor integration, and system-level validation.</p>
+                    <p>I also conduct undergraduate research in the SEES Lab, where I work on AI-assisted hardware design automation. My recent work involves building benchmark datasets for RTL generation and verification, scripting ASIC flows, and evaluating power, performance, and area trade-offs using tools such as Yosys, OpenLane, and the Sky130 PDK.</p>
+                    <p>In parallel, I contributed to a cloud-based multi-agent capstone project built on Microsoft Azure, where I worked on backend services, cloud integration, and agent-based system workflows for enterprise-style business processes.</p>
+                    <p>I'm especially interested in roles spanning embedded systems, backend/cloud engineering, digital design, and systems-oriented software development.</p>
+                </div>
+            </div>
         </section>
-        <section class="project-container">
-            <h2>Projects & Research</h2>
-            <div class="Project">
-                <article>
-                    <h3>Generative AI for Hardware Design</h3>
-                    <p class="project-description">At the Secure, Efficient & Evolvable Systems (SEES) Lab at the University of South Florida, I conduct research on Generative AI for hardware design under the supervision of Dr. Hao Zheng. My work explores how large language models (LLMs) can automate the generation and verification of hardware description language (HDL) code, accelerating the design process for digital systems. I am currently developing a hierarchical Verilog dataset containing 50–70 designs of varying complexity to benchmark and evaluate the performance of State-of-the-Art LLMs in RTL code generation. This research also involves analyzing performance, power, and area (PPA) trade-offs using tools such as Yosys, OpenLane, and the Sky130 PDK, with the goal of advancing AI-assisted design automation and creating reproducible benchmarks for future EDA research.</p>
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="https://sees-usf.github.io/research">Research Lab Website</a>
-                    </div>
-                </article>
+
+        <!-- ========== 3. FEATURED PROJECTS ========== -->
+        <section class="section" id="featured-projects" aria-labelledby="featured-heading">
+            <div class="container">
+                <h2 id="featured-heading" class="section__title">Featured Projects</h2>
+                <p class="section__lead">Recent engineering work across cloud systems, research, embedded hardware, and ASIC design.</p>
+
+                <div class="featured-grid">
+                    <article class="card card--featured">
+                        <div class="card__media">
+                            <!-- Add capstone project image here: replace .card__placeholder with <img> -->
+                            <div class="card__image" role="img" aria-label="Capstone project image">
+                                <img src="Assets/Screenshot 2026-04-04 205414.jpg" alt="Capstone project image">
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Capstone Project — Cloud-Based AI Agent System</h3>
+                            <p class="card__subtitle">Azure AI Foundry, Azure OpenAI, Python, Backend Services, MCP</p>
+                            <p class="card__desc">Built a cloud-based multi-agent AI system on Microsoft Azure as part of a senior capstone project developed with Microsoft guidance. The system orchestrates specialized agents and backend services to support enterprise-style workflows such as quote generation, purchase authorization, billing logic, inventory-related interactions, and admin operations.</p>
+                            <ul class="card__highlights">
+                                <li>Developed backend services in Python to process structured requests and support business workflow automation.</li>
+                                <li>Implemented agent coordination patterns using Model Context Protocol concepts to enable communication between specialized components.</li>
+                                <li>Worked within deployment, security, and budget constraints while collaborating in a multi-person engineering team.</li>
+                            </ul>
+                            <div class="card__links">
+                                <p class="card__demo-line"><span class="card__demo-label">Live demo:</span> Demo available upon request.</p>
+                                <a class="link-pill link-pill--url" target="_blank" rel="noreferrer noopener" href="https://contoso-admin-portal-17079.azurewebsites.net/" title="Contoso Admin Portal (Azure App Service)">https://contoso-admin-portal-17079.azurewebsites.net/</a>
+                                <p class="card__note"><strong>Note:</strong> The system is deployed on Azure and uses external APIs, so public access is restricted. I'm happy to walk through the system and demo it live.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card--featured">
+                        <div class="card__media">
+                            <!-- Add SEES lab / RTL research image here -->
+                            <div class="card__image" role="img" aria-label="SEES Lab image">
+                                <img src="Assets/mermaid-diagram.png" alt="SEES Lab image">
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Generative AI for Hardware Design</h3>
+                            <p class="card__subtitle">SEES Lab | Python, Verilog, Yosys, OpenLane, Sky130</p>
+                            <p class="card__desc">Conduct undergraduate research on AI-assisted hardware design automation in the Secure, Efficient, and Evolvable Systems (SEES) Lab at USF. My work focuses on evaluating how large language models can support RTL generation, verification, and hardware design workflows through reproducible benchmarking and automated analysis.</p>
+                            <ul class="card__highlights">
+                                <li>Built hierarchical Verilog benchmark datasets covering multiple design types and complexity levels.</li>
+                                <li>Developed Python workflows for automated verification, synthesis analysis, and extraction of PPA metrics.</li>
+                                <li>Used Yosys, OpenLane, and Sky130-based flows to study timing, area, manufacturability, and design trade-offs.</li>
+                            </ul>
+                            <div class="card__links">
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="https://sees-usf.github.io/research">SEES Lab research</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card--featured">
+                        <div class="card__media">
+                            <!-- Add SOAR DAQ image here -->
+                            <div class="card__image" role="img" aria-label="torito daq image">
+                                <img src="Assets/DSC04691.JPG" alt="torito daq image">
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Rocket Engine Data Acquisition System</h3>
+                            <p class="card__subtitle">SOAR | Teensy 4.1, C++, RTOS, LoRa, PCB Design, Mixed-Signal Systems</p>
+                            <p class="card__desc">Lead the electronics and embedded systems development for a student-built liquid rocket engine project through the Society of Aeronautics and Rocketry. The system supports real-time sensing, telemetry, and control for engine testing, combining embedded firmware, custom hardware, and full-system integration.</p>
+                            <ul class="card__highlights">
+                                <li>Led redesign of the DAQ architecture to improve modularity, fault isolation, and serviceability.</li>
+                                <li>Designed and debugged custom mixed-signal PCBs with improved grounding, decoupling, and power routing.</li>
+                                <li>Developed RTOS-based embedded firmware for synchronized sensor acquisition and long-range telemetry.</li>
+                            </ul>
+                            <div class="card__links">
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="https://github.com/usfsoar/torito_firmware_25_26">Complete firmware (GitHub)</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card--featured">
+                        <div class="card__media">
+                            <!-- Add RISC-V / ASIC project image here -->
+                            <div class="card__image" role="img" aria-label="SoC image">
+                                <img src="Assets/mermaid2-diagram.png" alt="SoC image">
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">RISC-V SoC with ML Accelerator</h3>
+                            <p class="card__subtitle">Verilog, SystemVerilog, OpenLane, ASIC Design</p>
+                            <p class="card__desc">Designed a single-cycle RISC-V processor and integrated a custom machine-learning accelerator for vector dot-product operations. This project strengthened my understanding of RTL design, verification, datapath/control integration, and physical design workflows.</p>
+                            <ul class="card__highlights">
+                                <li>Implemented datapath, control, ALU, decode, memory interface, and accelerator integration in Verilog.</li>
+                                <li>Wrote SystemVerilog testbenches for functional verification and waveform-based debugging.</li>
+                                <li>Ran synthesis, place-and-route, timing analysis, and generated a DRC/LVS-clean GDSII using OpenLane.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="Project">
-                <img src="/portfolioWebsite/Assets/IMG_0188.jpg" class="torito-pic" alt="Liquid Propulsion Engine">
-                <img src="/portfolioWebsite/Assets/IMG_0189.jpg" class="torito-pic" alt="Liquid Propulsion Engine Test Fire">
-                <img src="/portfolioWebsite/Assets/IMG_5149.jpg" class="torito-pic" alt="Liquid Propulsion Engine Test Fire">
-                <article>
-                    <h3>Liquid Propulsion Rocket Engine</h3>
-                    <p class="project-description">This project involves the design and testing of a student-built liquid rocket engine capable of generating 250 lb of thrust. 
-                        As the Electronics & Computer Systems Lead, I oversee the development and integration of all electronic subsystems — including load cells for thrust measurement, pressure and temperature sensors, and RF-based remote ignition and telemetry systems.
-                        I design and implement real-time control and data acquisition firmware using FreeRTOS on ESP32 microcontrollers, ensuring reliable communication, safety interlocks, and synchronized sensor logging. This role combines embedded systems, control engineering, and sensor integration, providing hands-on experience in system reliability, hardware-software co-design, and cross-disciplinary collaboration within a fast-paced engineering team.</p>
-                </article>
+        </section>
+
+        <!-- ========== 4. EARLIER PROJECTS ========== -->
+        <section class="section section--alt" id="earlier-projects" aria-labelledby="earlier-heading">
+            <div class="container">
+                <h2 id="earlier-heading" class="section__title">Earlier Projects</h2>
+                <p class="section__lead section__lead--muted">Additional coursework and learning projects.</p>
+
+                <div class="earlier-grid">
+                    <article class="card card--compact">
+                        <div class="card--compact__media">
+                            <div class="card__placeholder card__placeholder--sm" role="img" aria-label="Placeholder">Image Coming Soon</div>
+                        </div>
+                        <div class="card--compact__body">
+                            <h3 class="card__title card__title--sm">Blog Website</h3>
+                            <p class="card__desc card__desc--sm">Built a full-stack blog application using Flask, SQLite, HTML, and CSS with support for user authentication, CRUD operations, and REST-style backend logic.</p>
+                            <!-- Add your blog repo or demo URL when ready: <a class="link-pill" href="...">View</a> -->
+                        </div>
+                    </article>
+
+                    <article class="card card--compact">
+                        <div class="card--compact__media">
+                            <img src="Assets/Calendar picture.jpg" alt="" class="card__thumb" loading="lazy">
+                        </div>
+                        <div class="card--compact__body">
+                            <h3 class="card__title card__title--sm">Calendar App</h3>
+                            <p class="card__desc card__desc--sm">Built a Flutter mobile app during my internship to support internal employee workflows such as calendar viewing, notifications, and attendance-related interactions. This project helped strengthen my mobile development and API integration skills.</p>
+                            <div class="card__links card__links--compact">
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562/calendar_app">GitHub</a>
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="https://drive.google.com/drive/folders/1-MhKzIrNxUhbB52fKSKYJxyVIwtNIpUk?usp=sharing">Snapshots</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card--compact">
+                        <div class="card--compact__media">
+                            <img src="Assets/View recent photos.jpeg.png" alt="" class="card__thumb" loading="lazy">
+                        </div>
+                        <div class="card--compact__body">
+                            <h3 class="card__title card__title--sm">News App</h3>
+                            <p class="card__desc card__desc--sm">Developed a Flutter-based news application that consumed external APIs, supported dynamic content refresh, and included theme switching. This project helped me practice mobile UI design and API-driven development.</p>
+                            <div class="card__links card__links--compact">
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="https://drive.google.com/drive/folders/1-YgfRv05OqEUdN5Cd6V4RU8AjJAqIcI-?usp=sharing">Snapshots</a>
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562/udemy_flutter">News app code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card--compact">
+                        <div class="card--compact__media">
+                            <img src="Assets/adder_layout.png" alt="" class="card__thumb" loading="lazy">
+                        </div>
+                        <div class="card--compact__body">
+                            <h3 class="card__title card__title--sm">24×24 Bit CMOS Multiplier</h3>
+                            <p class="card__desc card__desc--sm">VLSI layout project using CMOS and carry-save adders, with hierarchical design in Cadence Virtuoso and DRC/LVS validation.</p>
+                            <div class="card__links card__links--compact">
+                                <a class="link-pill" target="_blank" rel="noreferrer noopener" href="Assets/CDA4213 Project Final Report.pdf">Final report (PDF)</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="Project">
-                <article>
-                    <h3>24x24 Bit CMOS Multiplier</h3>
-                    <img src="/portfolioWebsite/Assets/adder_layout.png" alt="blog image" class="blog-image"><img src="/portfolioWebsite/Assets/Final_layout.png" alt="blog image" class="blog-image">
-                    <p class="project-description">This project involved designing a 24x24-bit array multiplier using CMOS technology and Carry Save Adders (CSAs) to optimize performance while minimizing area constraints (751.95 µm x 891.65 µm). Using Cadence Virtuoso, I developed a hierarchical layout, incorporating signal boosters and bus bars to ensure power distribution and signal integrity across the chip. The design underwent DRC and LVS validation, ensuring manufacturability and compliance with CMOS fabrication standards. Through this project, I gained hands-on experience in VLSI design, circuit simulation, and hardware optimization.</p>
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="/portfolioWebsite/Assets/CDA4213 Project Final Report.pdf">Project Final Report</a>
-                    </div>
-                </article>
+        </section>
+
+        <!-- ========== 5. RESUME ========== -->
+        <section class="section" id="resume" aria-labelledby="resume-heading">
+            <div class="container container--narrow">
+                <h2 id="resume-heading" class="section__title">Resume</h2>
+                <p class="prose prose--center">For a broader overview of my experience across embedded systems, cloud/backend work, research, and digital design, download my current resume below.</p>
+                <div class="resume-actions">
+                    <a class="btn btn--primary btn--lg" href="Assets/Marwan_Abdelwahab_resume.pdf" download>Download Resume</a>
+                </div>
             </div>
-            <!-- <div class="Project"> -->
-                <!-- <article> -->
-                    <!-- <h3>Home Automation System</h3> -->
-                    <!-- <p class="project-description">(Image coming soon...)</p> -->
-                    <!-- <img src="/portfolioWebsite/Assets/blog_image.png" alt="blog image" class="blog-image"> -->
-                    <!-- <p class="project-description">This is an IoT-based home automation system designed to enhance convenience and efficiency in a smart living space. Using IR control and PIR sensors, the system automates room lighting and fan operation based on presence detection. A custom-built mobile app provides remote control, while an ESP32 microcontroller manages embedded firmware for real-time responsiveness. I am currently working on RTOS integration to improve task scheduling and developing voice activation and machine learning-based automation for enhanced user experience. This project highlights my skills in embedded systems, control systems, and IoT development.</p> -->
-                    <!-- <div> -->
-                        <!-- <a target="_blank" rel="noreferrer noopener">Github Link Coming soon...</a> -->
-                    <!-- </div> -->
-                <!-- </article> -->
-            <!-- </div> -->
-            <div class="Project">
-                <img src="/portfolioWebsite/Assets/Calendar picture.jpg" alt="calendar app" class="calendar-pic">
-                <article>
-                    <h3>Calendar App</h3>
-                    <p class="project-description">This is an app I developed during my Summer 2023 internship at Hassan Allam Technologies. It's main purpose is to give employees more access such as notifications about upcoming events, requesting sick leave and signing-in and out. I did it's implementation completely individually using the flutter mobile development environment. The links below show more about the project, however, it is still in progress and I will still add more functionalities and complete the intended purpose. The app is not yet deployed so the google drive link below contains snapshots of development progress as well as videos of the app's functionalities.</p>
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562/calendar_app">GitHub Link</a>
-                    </div>
-                    &nbsp;
-                    &nbsp;
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="https://drive.google.com/drive/folders/1-MhKzIrNxUhbB52fKSKYJxyVIwtNIpUk?usp=sharing">Google Drive Link</a> <p style="font-size: 12px;">(Testing and development snapshots)</p>
-                    </div>
-                </article>
-            </div>
-            <div class="Project">
-                <img src="/portfolioWebsite/Assets/View recent photos.jpeg.png" alt="calendar app" class="calendar-pic">
-                <article>
-                    <h3>News App</h3>
-                    <p class="project-description">This is a fully-functional news app I developed using APIs and the flutter development environment. It has theme changes such as switching from light to dark mode. It also updates and refreshes to get the latest news thanks to the integration of APIs into the app. The app is complete but not deployed so the google drive link below shows snapshots from its testing and development progress. Its github link is in the other projects section below.</p>
-                    <div>
-                        <a target="_blank" rel="noreferrer noopener" href="https://drive.google.com/drive/folders/1-YgfRv05OqEUdN5Cd6V4RU8AjJAqIcI-?usp=sharing">Google Drive Link</a> <p style="font-size: 12px;">(Testing and development snapshots)</p>
-                    </div>
-                </article>
-            </div>
-                </article>
-            </div>
-            <h2>Other Projects</h2>
-            <p>This section lists some unfinished projects that have either been not deployed or do not have any links or snapshots.</p>
-            <div class="other-projects-list">
-                <ul>
+        </section>
+
+        <!-- ========== 6. CONTACT ========== -->
+        <section class="section section--alt section--contact" id="contact" aria-labelledby="contact-heading">
+            <div class="container container--narrow">
+                <h2 id="contact-heading" class="section__title">Contact</h2>
+                <p class="prose prose--center">I'm always open to connecting about embedded systems, backend/cloud engineering, digital design, and research opportunities.</p>
+                <ul class="contact-list">
                     <li>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562/udemy_flutter">Learning Flutter/Dart Repository</a> &nbsp; <span>- This is a repository containing the sub-projects I did while learning flutter and dart. Also contains the code for the news app.</span>
+                        <span class="contact-label">Email</span>
+                        <a class="contact-link" href="mailto:marwanabdelwahab09@gmail.com">marwanabdelwahab09@gmail.com</a>
                     </li>
-                    &nbsp;
                     <li>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562/contactlist2">Contact List (Flutter)</a> &nbsp; <span>- This is a repository for a contacts list sub-project I learned to do from a udemy course.</span>
+                        <span class="contact-label">LinkedIn</span>
+                        <a class="contact-link" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/marwan-abdelwahab">linkedin.com/in/marwan-abdelwahab</a>
                     </li>
+                    <li>
+                        <span class="contact-label">GitHub</span>
+                        <a class="contact-link" target="_blank" rel="noreferrer noopener" href="https://github.com/Mar85562">github.com/Mar85562</a>
+                    </li>
+                </ul>
             </div>
         </section>
-        <footer>
-            <h4>Website by Marwan Abdelwahab</h4>
-        </footer>
-    </body>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Marwan Abdelwahab</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
