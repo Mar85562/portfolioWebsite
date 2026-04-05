@@ -1,4 +1,4 @@
-/* Portfolio — static layout, neutral + blue accent */
+/* Portfolio — static layout, neutral + blue accent (v2) */
 
 :root {
     --bg: #f6f7f9;
@@ -41,11 +41,10 @@ body {
 
 img {
     max-width: 100%;
-    height: auto;
     display: block;
 }
 
-/* Card / hero images use explicit sizing; see .card__media img, .hero__photo */
+/* Card / hero images set their own height (global height:auto breaks object-fit layouts) */
 
 a {
     color: var(--accent);
@@ -233,6 +232,7 @@ a:hover {
 .hero__photo {
     width: min(280px, 70vw);
     height: auto;
+    max-height: none;
     aspect-ratio: 1;
     object-fit: cover;
     object-position: center;
@@ -365,35 +365,33 @@ a:hover {
     }
 }
 
-/* Full image visible inside frame (letterboxed if needed) */
+/* Featured media: fill frame consistently (avoids huge intrinsic image sizes when CSS loads late) */
 .card__image {
     min-width: 0;
     min-height: 0;
     width: 100%;
     height: 100%;
-    padding: 0.5rem;
-    display: grid;
-    place-items: center;
+    padding: 0;
+    overflow: hidden;
+    display: block;
     box-sizing: border-box;
 }
 
 .card__image img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
     object-position: center;
 }
 
 .card__media > img {
-    place-self: center;
-    max-width: calc(100% - 1rem);
-    max-height: calc(100% - 1rem);
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
     object-position: center;
+    place-self: stretch;
 }
 
 .card__placeholder {
@@ -555,11 +553,10 @@ a:hover {
 }
 
 .card__thumb {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
     object-position: center;
 }
 
